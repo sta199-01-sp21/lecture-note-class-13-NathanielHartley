@@ -28,7 +28,6 @@ knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE,
 ```{r packages}
 library(tidyverse)
 library(infer)
-
 ```
 
 ## Big picture
@@ -190,7 +189,7 @@ Consider 20 1-bedroom apartments that were randomly selected on
 Craigslist Manhattan from apartments listed as "by owner".
 
 ```{r data_manhattan}
-manhattan <- read_csv("~/manhattan.csv")
+manhattan <- read_csv("~/Stats 199/lecture-note-class-13-NathanielHartley/manhattan.csv")
 ```
 
 Consider 3-10 day survival of mice randomized to various
